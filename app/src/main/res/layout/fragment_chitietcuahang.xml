@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chitietcuahang">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <SearchView
+                        android:id="@+id/search"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+                    </SearchView>
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="247dp"
+                        android:layout_below="@+id/search"
+                        android:background="@drawable/avatar"
+                        />
+                    <TextView
+                        android:id="@+id/tenCH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:text="Cơm Tấm Vườn Chuối"
+                        android:textSize="36dp"
+                        android:textStyle="bold"
+                        android:gravity="left"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="62-Hàn Mặc Tử, Quận Hải Châu, Đà Nẵng"
+                        android:layout_below="@+id/tenCH"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/index"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Món Việt | Giá trung bình 32k"
+                        android:layout_below="@+id/address"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        />
+                </RelativeLayout>
+
+                <!--        content-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <com.google.android.material.tabs.TabLayout
+                        android:layout_marginTop="-11dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/choose_list"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.tabs.TabItem
+                            android:text = "Giao hàng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <com.google.android.material.tabs.TabItem
+                            android:text = "Bình luận"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content" />
+                        <com.google.android.material.tabs.TabItem
+                            android:text = "Thông tin"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content" />
+                    </com.google.android.material.tabs.TabLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MỞ CỬA   07:00-22:00 | Giao trong'"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:layout_marginTop="5dp"
+                        />
+                    <RelativeLayout
+                        android:id="@+id/sale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/border">
+                        <ImageButton
+                            android:id="@+id/sale1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/sale1">
+                        </ImageButton>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/sale1"
+                            android:textSize="22dp"
+                            android:text="Nhập 'ALLFREE': FreeShip 3km"
+                            android:layout_marginLeft="10dp" />
+                        <ImageButton
+                            android:id="@+id/sale2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/sale2"
+                            android:layout_below="@+id/sale1">
+                        </ImageButton>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/sale2"
+                            android:layout_below="@+id/sale1"
+                            android:textSize="22dp"
+                            android:text="Giảm 30k khi thanh toán 100k"
+                            android:layout_marginLeft="10dp"/>
+                        <ImageButton
+                            android:id="@+id/sale3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/sale3"
+                            android:layout_below="@+id/sale2">
+                        </ImageButton>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/sale3"
+                            android:layout_below="@+id/sale2"
+                            android:textSize="22dp"
+                            android:text="Giảm trực tiếp 20%"
+                            android:layout_marginLeft="10dp"/>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/ds"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Danh sách món ăn:"
+                        android:textSize="24dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="10dp"
+                        android:background="#D1CCCC"
+                        />
+                    <ListView
+                        android:id="@+id/listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="2000dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bt_home"
+        android:icon="@drawable/ic_home_prf"
+        android:title="Home"/>
+
+    <item android:id="@+id/bt_dh"
+        android:icon="@drawable/ic_list_prf"
+        android:title="Đơn hàng"/>
+
+    <item android:id="@+id/bt_saved"
+        android:icon="@drawable/ic_save_prf"
+        android:title="Đã lưu"/>
+
+    <item android:id="@+id/bt_noti"
+        android:icon="@drawable/ic_notifications_prf"
+        android:title="Thông báo"/>
+
+    <item android:id="@+id/bt_me"
+        android:icon="@drawable/ic_perm_prf"
+        android:title="Tôi"/>
+
+
+</menu>

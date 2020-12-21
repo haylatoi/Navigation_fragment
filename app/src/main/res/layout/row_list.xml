@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_back"
+        android:id="@+id/image_list"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Cơm Tấm"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtadr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cơm Tấm"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+        <LinearLayout
+            android:layout_marginTop="10px"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <LinearLayout
+                android:layout_width="200px"
+                android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@drawable/star"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4.7"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="55dp">
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/ic_time"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="15min"/>
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/ic_adjust"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="1.1km"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FREE SHIP"
+            android:textColor="#EE0000"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>

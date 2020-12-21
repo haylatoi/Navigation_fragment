@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_sizes">
+        <item>Dịch vụ</item>
+        <item>Đồ ăn</item>
+        <item>Thực phẩm</item>
+        <item>Bia</item>
+        <item>Hoa</item>
+        <item>Sản phẩm </item>
+        <item>Thuốc</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>Tất cả</item>
+        <item>Đã huỷ</item>
+        <item>Hoàn Thành</item>
+    </string-array>
+    <string-array name="daluu">
+        <item>Dịch vụ</item>
+        <item>Đồ ăn</item>
+        <item>Thực phẩm</item>
+        <item>Bia</item>
+        <item>Hoa</item>
+        <item>Sản phẩm </item>
+        <item>Thuốc</item>
+        <item>Thú cưng</item>
+        <item>Giặt ủi</item>
+        <item>Giao hàng</item>
+        <item>Đặt bàn</item>
+        <item>Salon</item>
+        <item>Giúp việc</item>
+    </string-array>
+
+
+</resources>
